@@ -2,7 +2,7 @@
 
 ## Project Links
 
-<a href=https://kofi100.github.io/3-Column-Page-FrontEnd-2/"><img src="./images/needed/github-mark/github-mark-white.svg" style=""> </a>
+<a href="https://kofi100.github.io/3-Column-Page-FrontEnd-2/"><img src="./images/needed/github-mark/github-mark-white.svg" style=""> </a>
 <a href="https://kofi100.github.io/product-preview-card/"> <img src="./images/needed/githubPages.jpg" style="height:100px"></a>
 <a href="https://www.frontendmentor.io/solutions/intro-component-using-htmlcssjavascript-HKi0Wx4WRY"><img src="./images/needed/frontEndMentor.png" style="width:200px"></a>
 
