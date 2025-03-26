@@ -1,0 +1,88 @@
+:root{
+  --Brightorange: hsl(31, 77%, 52%);
+ --Darkcyan: hsl(184, 100%, 22%);
+  --Verydarkcyan: hsl(179, 100%, 13%);
+
+  --Transparentwhite: hsla(0, 0%, 100%, 0.75);
+--Verylightgray: hsl(0, 0%, 95%);
+}
+
+
+body{
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  
+  font-size: 15px;
+  /* font-family: "Big Shoulders";
+  font-weight: 400; */
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  color:var(--Transparentwhite);/*text color*/
+  background-color: var(--Verylightgray);/*BG color*/
+}
+
+
+
+.attribution { font-size: 11px; text-align: center;color: #000; }
+
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+h2{
+  /* font-family: "Lexend Deca";
+  font-weight: 700; */
+    font-family: "Big Shoulders";
+  font-weight: 700;
+  text-transform:uppercase;
+  margin: 0;
+  color: var(--Verylightgray);
+  
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius:.5rem;
+  div{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: left;
+    height: 20rem;
+    justify-content: space-around;
+  }
+}
+.BGColor__Orange{
+  background-color: var(--Brightorange);
+}
+.BGColor__Darkcyan{
+  background-color: var(--Darkcyan);
+
+}
+.BGColor__VeryDarkCyan{
+  background-color: var(--Verydarkcyan);
+}
+.haveTopEdgesRounded{
+  border-radius: .5rem .5rem 0 0
+}
+.haveBottomEdgesRounded{
+  border-radius:0 0 .5rem .5rem;
+}
+img{
+  width: 64px;
+  aspect-ratio: 16/9;
+}
+/* going for Mobile First Approach */
+@media (min-width:767px) {
+  .card{
+    flex-direction: row;
+  }
+  .haveTopEdgesRounded{
+    border-radius:.5rem 0 0 .5rem;
+  }
+  .haveBottomEdgesRounded{
+    border-radius:0 .5rem .5rem 0;
+  }
+
+}
